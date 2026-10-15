@@ -60,7 +60,7 @@ https://ga4-analytics-lab-gamma.vercel.app/?utm_source=telegram&utm_medium=socia
 | `utm_source` | telegram | в коде события берётся из адреса, на экране GA4 значение ещё не открыто |
 | `utm_medium` | social | то же |
 | `utm_campaign` | ga4_lab | то же |
-| `landing_page` | — | в коде это `window.location.pathname`, для главной это `/` |
+| `landing_page` | - | в коде это `window.location.pathname`, для главной это `/` |
 
 Кадр раскрытого `utm_visit` не приложен: это событие на экране GA4 в этом заходе не открылось.
 
