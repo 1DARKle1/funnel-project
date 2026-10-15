@@ -42,7 +42,7 @@
 | Measurement ID (`G-…`) | G-ETWDNF516E |
 | Коммит с новой формой (первые 7 символов) | fb38a16 |
 
-Скриншот: вставьте строку `![Code.gs с ID своей таблицы](screens/02-apps-script.png)`
+![Code.gs с ID таблицы](screens/02-apps-script.png)
 
 Скриншот: вставьте строку `![Окно развёртывания с адресом Web app](screens/03-deployment.png)`
 
@@ -83,6 +83,6 @@
 
 ---
 
-Не получилось: лист `leads` снят, кадр `01-sheet.png` лежит в папке. Apps Script, адрес Web App, две заявки, дубль `request_id`, отказ статуса и `generate_lead` ещё не сняты. В `contacts.html` в `action` по-прежнему `ВАШ_APPS_SCRIPT_URL`.
+Не получилось: сняты лист `leads` и `Code.gs`. Окно развёртывания, форма с адресом `/exec`, две заявки, дубль, отказ статуса и `generate_lead` ещё не сняты. В `contacts.html` в `action` по-прежнему `ВАШ_APPS_SCRIPT_URL`.
 
 ИИ: использовал для оформления бланка. Цифры заявок не придумывал.
