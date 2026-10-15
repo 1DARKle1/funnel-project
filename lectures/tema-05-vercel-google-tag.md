@@ -83,6 +83,12 @@ Google Tag — фрагмент кода из инструкции веб-пот
   все темы с 6-й по 9-ю дорабатывают этот же сайт.
 - Google Tag на всех страницах, данные приходят в свой ресурс GA4.
 
+## Мой конспект
+
+Груздев Николай, РПО25/2, 15.10.
+
+Сайт это копия шаблона: https://github.com/1DARKle1/ga4-analytics-lab, публикация https://ga4-analytics-lab-gamma.vercel.app. Тег `G-ETWDNF516E` стоит в head страниц index, about, contacts и guide. Сообщение «тег обнаружен» и `page_view` в Realtime я ещё не снял: главная отчётов показывала 0 событий за 7 дней.
+
 ## Документация
 
 - [Vercel: настройка сборки и статический сайт](https://vercel.com/docs/builds/configure-a-build)

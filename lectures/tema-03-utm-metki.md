@@ -88,6 +88,12 @@ https://site.ru/?utm_source=vk&utm_medium=social&utm_campaign=sept_open_2026
 - Правило именования используется во всех заданиях, где нужна ссылка
   с метками.
 
+## Мой конспект
+
+Груздев Николай, РПО25/2, 15.10.
+
+Без меток переход из мессенджера часто становится direct. Всегда нужны `utm_source`, `utm_medium` и `utm_campaign`. Для своего сайта я собрал ссылку `https://ga4-analytics-lab-gamma.vercel.app/?utm_source=telegram&utm_medium=social&utm_campaign=ga4_lab`. Значения пишутся строчными буквами, без пробелов. В отчёте GA4 источник по этой ссылке я ещё не открыл.
+
 ## Документация
 
 - [Google Analytics: группы каналов по умолчанию](https://support.google.com/analytics/answer/9756891)

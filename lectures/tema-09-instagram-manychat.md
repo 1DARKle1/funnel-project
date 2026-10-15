@@ -83,6 +83,12 @@ Action**: что запускает, при каком условии, что д
 - Заявки с `utm_source=instagram`, `utm_campaign=backend_guide` — на них
   строится анализ кампании в теме 10 и фильтры отчёта в теме 10.2.
 
+## Мой конспект
+
+Груздев Николай, РПО25/2, 15.10.
+
+Цепочка такая: комментарий «ГАЙД», публичный ответ, личное сообщение, кнопка на guide.html с метками, форма, строка в таблице. Страница guide.html опубликована с идентификатором `G-ETWDNF516E`. Ссылка для кнопки: `https://ga4-analytics-lab-gamma.vercel.app/guide.html?utm_source=instagram&utm_medium=social&utm_campaign=backend_guide&utm_content=reel01`. Аккаунт Instagram и ManyChat я ещё не подключал, поэтому заявки из комментария нет.
+
 ## Документация
 
 - [ManyChat: триггер на комментарии под Post и Reel](https://help.manychat.com/hc/en-us/articles/14281316989724-Instagram-Post-and-Reel-Comments-Trigger)

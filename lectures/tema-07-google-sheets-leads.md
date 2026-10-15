@@ -85,6 +85,12 @@ Apps Script — язык сценариев Google на JavaScript, встрое
 - Эта таблица используется в темах 9 (заявка из Instagram), 10 (сверка
   с GA4) и 10.2 (вкладка заявок в DataLens).
 
+## Мой конспект
+
+Груздев Николай, РПО25/2, 15.10.
+
+Заявка это строка, а не событие GA4. В таблице девять столбцов: request_id, created_at, name, email, direction, utm_source, utm_medium, utm_campaign, status. Время и статус `new` ставит сервер. Форма из материалов уже стоит в contacts.html, коммит `fb38a16`. В action до сих пор заглушка `ВАШ_APPS_SCRIPT_URL`, поэтому заявки в таблицу ещё не пишутся.
+
 ## Документация
 
 - [Apps Script: Web Apps](https://developers.google.com/apps-script/guides/web)

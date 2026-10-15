@@ -81,6 +81,12 @@ gtag('event', 'generate_lead', { lead_source: 'contact_form' });
 - В GA4 зарегистрирован разрез «Название кнопки», `generate_lead` — ключевое
   действие. Эти события используются в темах 9, 10 и 10.2.
 
+## Мой конспект
+
+Груздев Николай, РПО25/2, 15.10.
+
+Свои события отправляет `gtag('event', имя, параметры)`. В `js/script.js` остались `generate_lead` и `cta_click`. Четыре метрики лежат в `js/metrics.js` и подключены после основного скрипта на всех страницах, коммит `2141135`. Это `nav_click`, `utm_visit`, `read_30s` и `form_error`. Повтор тех же обработчиков из `script.js` я убрал в коммите `a4eaba5`, иначе события удваиваются.
+
 ## Документация
 
 - [Enhanced measurement](https://support.google.com/analytics/answer/9216061?hl=ru)
