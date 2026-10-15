@@ -4,10 +4,10 @@
 
 **Материалы и файлы:** https://algorthimization-course-vvodnoe.vercel.app/op03-informacionnye-tehnologii/lessons/08-power-query-cleaning/materials.html
 
-**Файлы занятия:** [materials/tema-08-google-sheets-cleaning](../materials/tema-08-google-sheets-cleaning/) —
+**Файлы занятия:** [materials/tema-08-google-sheets-cleaning](../materials/tema-08-google-sheets-cleaning/) -
 папка `lesson_data_cleaning` с CSV v1 и v2, резервной копией v1 и формулами.
 
-**Задание в репозитории:** [`lesson_06`](../lesson_06/README.md) — повторяемая
+**Задание в репозитории:** [`lesson_06`](../lesson_06/README.md) - повторяемая
 очистка выгрузки заявок формулами.
 
 ## Содержание лекции
@@ -19,7 +19,7 @@
 `|`, неверные даты. Если исправлять руками, следующую выгрузку придётся
 исправлять заново. Поэтому правила очистки записывают формулами один раз:
 новая выгрузка проходит через те же правила автоматически. Такой порядок
-называют **ETL** — извлечь, преобразовать, загрузить.
+называют **ETL** - извлечь, преобразовать, загрузить.
 
 ### Устройство таблицы
 

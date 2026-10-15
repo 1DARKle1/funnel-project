@@ -6,14 +6,14 @@
 
 **Файлы занятия:** [materials/tema-05-vercel-google-tag](../materials/tema-05-vercel-google-tag/)
 
-**Задание в репозитории:** [`lesson_03`](../lesson_03/README.md) — тег на сайте,
+**Задание в репозитории:** [`lesson_03`](../lesson_03/README.md) - тег на сайте,
 источник перехода и отчёты GA4.
 
 ## Содержание лекции
 
 ### Копия шаблона и клонирование
 
-Сайт для практики — шаблон `ga4-analytics-lab`: три страницы на HTML, CSS
+Сайт для практики - шаблон `ga4-analytics-lab`: три страницы на HTML, CSS
 и JavaScript без сборки. Кнопка **Use this template → Create a new repository**
 создаёт личную копию на своём аккаунте GitHub. Перед этим нужно проверить,
 что в браузере выполнен вход в свой аккаунт GitHub.
@@ -38,7 +38,7 @@ Production URL записывают в поле Website URL веб-потока 
 
 ### Google Tag
 
-Google Tag — фрагмент кода из инструкции веб-потока GA4. Он ставится
+Google Tag - фрагмент кода из инструкции веб-потока GA4. Он ставится
 в `<head>` каждой HTML-страницы, по одному разу.
 
 ```html

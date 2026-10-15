@@ -4,7 +4,7 @@
 
 **Материалы:** https://algorthimization-course-vvodnoe.vercel.app/op03-informacionnye-tehnologii/lessons/11-hubspot-crm/materials.html
 
-**Файлы занятия:** [materials/tema-11-hubspot-crm](../materials/tema-11-hubspot-crm/) —
+**Файлы занятия:** [materials/tema-11-hubspot-crm](../materials/tema-11-hubspot-crm/) -
 CSV для импорта, контрольный CSV, карта свойств, подготовка в Google Таблицах,
 отчёт сверки.
 
@@ -12,9 +12,9 @@ CSV для импорта, контрольный CSV, карта свойств
 
 ### Зачем CRM
 
-Таблица заявок хранит факт обращения. Работа с клиентом — звонки, заметки,
-задачи, смена этапов — ведётся в **CRM** (Customer Relationship Management).
-В CRM у каждого человека одна карточка, а у каждого обращения — своя сделка.
+Таблица заявок хранит факт обращения. Работа с клиентом - звонки, заметки,
+задачи, смена этапов - ведётся в **CRM** (Customer Relationship Management).
+В CRM у каждого человека одна карточка, а у каждого обращения - своя сделка.
 
 ### Модель данных HubSpot
 
@@ -27,8 +27,8 @@ CSV для импорта, контрольный CSV, карта свойств
 | Pipeline | последовательность этапов работы со сделками |
 | Stage | этап воронки со своей вероятностью закрытия |
 
-Заявка становится парой **Contact + Deal**. Один человек — один Contact
-(ищется по Email). Каждое обращение — новый Deal, связанный с этим Contact.
+Заявка становится парой **Contact + Deal**. Один человек - один Contact
+(ищется по Email). Каждое обращение - новый Deal, связанный с этим Contact.
 
 ### Pipeline Applications
 
@@ -45,13 +45,13 @@ CSV для импорта, контрольный CSV, карта свойств
 Шесть своих Deal Properties: Request ID и UTM Source / Medium / Campaign
 (однострочный текст), Direction (выпадающий список backend, frontend,
 data), Application Created At (дата и время). На тарифе Free своих свойств
-не больше 10 в сумме. Request ID — обычное текстовое поле, HubSpot
+не больше 10 в сумме. Request ID - обычное текстовое поле, HubSpot
 не проверяет по нему дубли.
 
 ### Импорт из CSV
 
 CSV готовится в Google Таблицах из `leads_clean`: 12 столбцов, включая
-Pipeline и Deal stage. Импорт — **Advanced import → Contacts + Deals →
+Pipeline и Deal stage. Импорт - **Advanced import → Contacts + Deals →
 Single file**:
 
 - Contacts: создать или обновить по Email;
@@ -59,7 +59,7 @@ Single file**:
 - все 12 колонок сопоставлены свойствам (mapping);
 - формат даты YMD, часовой пояс Europe/Moscow.
 
-Application Created At — время заявки на сайте; Create date — время
+Application Created At - время заявки на сайте; Create date - время
 создания записи в CRM. Если в строке ошибка отдельного свойства, сделка
 могла создаться; перед повторным импортом её находят и обновляют
 по Record ID.
@@ -91,7 +91,7 @@ Application Created At — время заявки на сайте; Create date 
 ## Что вошло в проект
 
 - CRM HubSpot с процессом обработки заявок и импортированными сделками.
-- CRM — станция 8 маршрута; в разделе 3 курса записи в неё будут создаваться
+- CRM - станция 8 маршрута; в разделе 3 курса записи в неё будут создаваться
   автоматически через n8n.
 
 ## Мой конспект

@@ -4,10 +4,10 @@
 
 **Материалы и тексты для копирования:** https://algorthimization-course-vvodnoe.vercel.app/op03-informacionnye-tehnologii/lessons/09-instagram-manychat/materials.html
 
-**Файлы занятия:** [materials/tema-09-instagram-manychat](../materials/tema-09-instagram-manychat/) —
+**Файлы занятия:** [materials/tema-09-instagram-manychat](../materials/tema-09-instagram-manychat/) -
 страница `guide.html` с кодом `guide.js`, тексты сообщений, список проверок.
 
-**Задание в репозитории:** [`lesson_07`](../lesson_07/README.md) — цепочка
+**Задание в репозитории:** [`lesson_07`](../lesson_07/README.md) - цепочка
 Instagram → ManyChat → сайт → заявка в таблице.
 
 ## Содержание лекции
@@ -32,7 +32,7 @@ Instagram → ManyChat → сайт → заявка в таблице.
 
 ### ManyChat
 
-ManyChat — сервис автоматизации переписки в Instagram, Facebook Messenger
+ManyChat - сервис автоматизации переписки в Instagram, Facebook Messenger
 и других каналах. Автоматизация строится по схеме **Trigger → Condition →
 Action**: что запускает, при каком условии, что делать.
 
@@ -60,7 +60,7 @@ Action**: что запускает, при каком условии, что д
 В GA4 различают **First user source** (откуда человек пришёл впервые)
 и **Session source** (откуда начался текущий сеанс). Новая метка в адресе
 сама не начинает новый сеанс. Событие `generate_lead` отправляется при
-отправке формы, поэтому запись заявки проверяют отдельно — по строке
+отправке формы, поэтому запись заявки проверяют отдельно - по строке
 в таблице.
 
 ## Что делали на занятии
@@ -80,7 +80,7 @@ Action**: что запускает, при каком условии, что д
 ## Что вошло в проект
 
 - Страница `guide.html` на сайте и автоматизация ManyChat.
-- Заявки с `utm_source=instagram`, `utm_campaign=backend_guide` — на них
+- Заявки с `utm_source=instagram`, `utm_campaign=backend_guide` - на них
   строится анализ кампании в теме 10 и фильтры отчёта в теме 10.2.
 
 ## Мой конспект

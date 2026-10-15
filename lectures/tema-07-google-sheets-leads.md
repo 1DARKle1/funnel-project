@@ -4,11 +4,11 @@
 
 **Материалы и код:** https://algorthimization-course-vvodnoe.vercel.app/op03-informacionnye-tehnologii/lessons/07-google-sheets-leads/materials.html
 
-**Файлы занятия:** [materials/tema-07-google-sheets-leads](../materials/tema-07-google-sheets-leads/) —
+**Файлы занятия:** [materials/tema-07-google-sheets-leads](../materials/tema-07-google-sheets-leads/) -
 приёмник `Code.gs`, фрагмент формы `form.html`, обработчик `lead-form.js`,
 пошаговая практика.
 
-**Задание в репозитории:** [`lesson_05`](../lesson_05/README.md) — форма сайта
+**Задание в репозитории:** [`lesson_05`](../lesson_05/README.md) - форма сайта
 пишет заявки в Google Таблицу через Apps Script.
 
 ## Содержание лекции
@@ -40,7 +40,7 @@
 
 ### Приёмник на Apps Script
 
-Apps Script — язык сценариев Google на JavaScript, встроенный в Таблицы.
+Apps Script - язык сценариев Google на JavaScript, встроенный в Таблицы.
 Функция `doPost(e)` принимает POST-запрос формы. Проект публикуется как
 **Web app**; адрес, оканчивающийся на `/exec`, ставится в `action` формы.
 
@@ -70,7 +70,7 @@ Apps Script — язык сценариев Google на JavaScript, встрое
    статусов и два правила подсветки.
 2. Вставили `Code.gs` в Apps Script, указали ID своей таблицы, опубликовали
    Web app.
-3. Заменили форму в `contacts.html` фрагментом `form.html`, обработчик —
+3. Заменили форму в `contacts.html` фрагментом `form.html`, обработчик -
    `lead-form.js`; опубликовали сайт через Commit → Push → Ready.
 4. Отправили заявку без меток (`direct / none / not_set`) и с метками
    `utm_campaign=lesson07`, сверили строки в таблице.
